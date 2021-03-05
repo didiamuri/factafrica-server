@@ -1,0 +1,53 @@
+{
+  "name": "factafrica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "db:migrate": "sequelize db:migrate",
+    "db:migrate:undo": "sequelize db:migrate:undo",
+    "watch": "babel-watch -L src/index.js",
+    "start": "pm2 start src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-watch": "^7.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "async": "^3.2.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.0",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.18",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pm2": "^4.5.0",
+    "sequelize": "^5.22.3",
+    "sequelize-cli": "^6.2.0",
+    "ua-parser-js": "^0.7.22",
+    "uuid": "^8.3.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "keywords": [
+    "fast-check",
+    "rest-api",
+    "server",
+    "http"
+  ],
+  "author": "Didierson Amuri",
+  "license": "ISC"
+}

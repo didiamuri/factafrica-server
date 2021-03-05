@@ -1,0 +1,62 @@
+{
+  "development": {
+    "username": "root",
+    "password": "toor",
+    "database": "factafrica_dev",
+    "host": "127.0.0.1",
+    "dialect": "mariadb",
+    "operatorsAliases": 0,
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "dialectOptions": {
+      "useUTC": false,
+      "dateStrings": true,
+      "typeCast": true
+    },
+    "timezone": "+01:00"
+  },
+  "test": {
+    "username": "root",
+    "password": "toor",
+    "database": "factafrica_test",
+    "host": "127.0.0.1",
+    "dialect": "mariadb",
+    "operatorsAliases": 0,
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "dialectOptions": {
+      "useUTC": false,
+      "dateStrings": true,
+      "typeCast": true
+    },
+    "timezone": "+01:00"
+  },
+  "production": {
+    "username": "root",
+    "password": "toor",
+    "database": "factafrica_prod",
+    "host": "127.0.0.1",
+    "dialect": "mariadb",
+    "operatorsAliases": 0,
+    "define": {
+      "charset": "utf8",
+      "dialectOptions": {
+        "collate": "utf8_general_ci"
+      }
+    },
+    "dialectOptions": {
+      "useUTC": false,
+      "dateStrings": true,
+      "typeCast": true
+    },
+    "timezone": "+01:00"
+  }
+}
